@@ -5,13 +5,30 @@
 }
 
 section{
-    height: 100vh;
     display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 section:nth-child(even){
     background-color: #ccc;
 }
 
+section div{
+    max-width: 50vw;
+}
+
 img{
    width: 100%; 
+   height: 100%;
+}
+
+p{
+    word-wrap: break-word;
+}
+
+.imgContainer{
+    width: 380px;
+    height: 300px;
 }
